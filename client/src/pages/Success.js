@@ -20,7 +20,7 @@ function Success() {
           idbPromise('cart', 'delete', item);
         });
       }
-
+// create a time out after a purchase to see the window for 3 sec.
       setTimeout(() => {
         window.location.assign('/');
       }, 3000);
