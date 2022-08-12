@@ -14,7 +14,8 @@ import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Nav from './components/Nav';
-import { StoreProvider } from './utils/GlobalState';
+// import { StoreProvider } from './utils/GlobalState';
+import { Provider } from 'react-redux';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 
@@ -42,7 +43,8 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <StoreProvider>
+          {/* <StoreProvider> */}
+          <Provider store={store}>
             <Nav />
             <Routes>
               <Route 
@@ -74,7 +76,8 @@ function App() {
                 element={<NoMatch />} 
               />
             </Routes>
-          </StoreProvider>
+          {/* </StoreProvider> */}
+          </Provider>
         </div>
       </Router>
     </ApolloProvider>
