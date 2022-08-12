@@ -13,6 +13,7 @@ import {
 } from "./actions";
 
 // export const reducer = (state, action) => {
+  // create an initial state to use in reducers
 const initialState = {
   products: [],
   categories: [],
@@ -98,5 +99,5 @@ export const reducers = (state = initialState, action) => {
 // export function useProductReducer(initialState) {
 //   return useReducer(reducer, initialState)
 // }
-
+// export reducers
 export default reducers;

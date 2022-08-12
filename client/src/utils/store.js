@@ -1,3 +1,5 @@
+// might better use configureStore from @reduxjs/toolkit
+
 import {createStore} from 'redux';
 import reducers from './reducers';
 
