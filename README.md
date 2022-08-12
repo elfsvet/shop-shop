@@ -1,4 +1,4 @@
-# Stepan Matysik's Redux Store
+# Store-N-Wish
 > Redux Store project
 > A link to the project website is [_here_](https://afternoon-hamlet-95224.herokuapp.com/).
 
@@ -34,7 +34,7 @@ To open this project in vscode using git in Terminal/Git Bash:
 
 ```
 cd in directory there you want to store your project
-git clone https://github.com/elfsvet/stepan-matysik-redux-store.git
+git clone https://github.com/elfsvet/store-n-wish.git
 code .
 ```
 
